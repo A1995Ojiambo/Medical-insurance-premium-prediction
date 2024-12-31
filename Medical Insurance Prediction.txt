@@ -1,0 +1,56 @@
+# Medical Insurance Prediction
+
+## Project Overview
+This project aims to predict medical insurance premiums using machine learning models. By analyzing key factors such as demographics, health metrics, and lifestyle habits, it provides insights that insurers can use to optimize pricing strategies and improve customer satisfaction.
+
+## Key Objectives
+1. **Data Exploration and Preprocessing**: 
+   - Perform Exploratory Data Analysis (EDA).
+   - Clean and preprocess data by handling missing values, addressing outliers, and encoding categorical variables.
+
+2. **Feature Engineering**: 
+   - Identify and create features to enhance model performance.
+
+3. **Model Development**: 
+   - Implement and compare multiple machine learning models:
+     - Multiple Linear Regression
+     - Random Forest Regressor
+     - XGBoost Regressor
+
+4. **Model Evaluation**:
+   - Evaluate performance using metrics like R², Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
+
+5. **Insights and Recommendations**:
+   - Analyze influential factors to refine premium pricing strategies.
+
+## Tools and Technologies
+- **Programming**: Python (Pandas, NumPy, Scikit-learn, XGBoost)
+- **Visualization**: Matplotlib, Seaborn
+- **Environment**: Jupyter Notebook
+- **Models**: 
+  - Multiple Linear Regression
+  - Random Forest Regressor
+  - XGBoost Regressor
+
+## Workflow
+### Part 1: Data Preprocessing
+- Import and explore the dataset.
+- Handle missing values and outliers.
+- Encode categorical variables.
+- Create bins for charges and analyze distributions.
+- Engineer features and compute correlations.
+
+### Part 2: Model Building
+- Train models using preprocessed data.
+- Evaluate performance:
+  - **Linear Regression**: R² = 0.76
+  - **Random Forest Regressor**: R² = 0.84
+  - **XGBoost Regressor**: R² = 0.83
+
+### Part 3: Predictions
+- Predict charges for new customers based on their demographics and health data.
+
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<your-repo-name>/medical-insurance-prediction.git
